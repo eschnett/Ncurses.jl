@@ -31,7 +31,7 @@ NC.init_pair(5, NC.COLOR_CYAN, NC.COLOR_WHITE)
 NC.init_pair(6, NC.COLOR_MAGENTA, NC.COLOR_WHITE)
 NC.init_pair(7, NC.COLOR_BLACK, NC.COLOR_WHITE)
 
-colors = ["RED", "GREEN", "YELLOW", "BLUE", "CYAN", "MAGENTA", "WHITE"]
+colors = ["RED", "GREEN", "YELLOW", "BLUE", "CYAN", "MAGENTA", "BLACK"]
 
 for n in 1:7
     NC.wmove(colwin, n, 1)

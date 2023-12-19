@@ -12,3 +12,8 @@ Note: It seems that Clang.jl missed some function that were implement
 as macros and didn't wrap them correctly. These are added manually in
 `gen/epilogue.jl`. Please let me know if you find more missing
 functions.
+
+Note to myself: Use this command to regenerate the bindings:
+```sh
+cd gen && julia --project=@. --threads=auto generator.jl
+```

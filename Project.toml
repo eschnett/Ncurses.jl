@@ -8,5 +8,6 @@ CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
 
 [compat]
+julia = "1.6"
 CEnum = "0.5.0"
 Ncurses_jll = "6.4.1"

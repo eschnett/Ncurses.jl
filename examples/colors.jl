@@ -38,7 +38,7 @@ for n in 1:7
     NC.wattrset(colwin, NC.COLOR_PAIR(n))
     NC.waddnstr(colwin, "Color $(colors[n])" * ' '^18, 18)
 end
- 
+
 NC.wrefresh(win)
 NC.wrefresh(colwin)
 

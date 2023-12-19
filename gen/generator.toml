@@ -1,0 +1,36 @@
+[general]
+
+jll_pkg_name = "Ncurses_jll"
+library_name = "libncurses"
+
+output_file_path = "../src/Ncurses.jl"
+module_name = "Ncurses"
+
+prologue_file_path = "prologue.jl"
+epilogue_file_path = "epilogue.jl"
+output_ignorelist = [
+    "FORM_IMPEXP",
+    "MENU_IMPEXP",
+    "NCURSES_BOOL",
+    "NCURSES_CH_T",
+    "NCURSES_DLL_H_incl",
+    "NCURSES_ETI_H_incl",
+    "NCURSES_IMPEXP",
+    "NCURSES_PANEL_H_incl",
+    "NCURSES_TACK_1_08",
+    "NCURSES_TERMCAP_H_incl",
+    "NCURSES_TERM_ENTRY_H_incl",
+    "NCURSES_TERM_H_incl",
+    "NCURSES_TPARM_ARG",
+    "NCURSES_UNCTRL_H_incl",
+    "PANEL_IMPEXP",
+    "TPARM_ARG",
+    "NCURSES_SP_OUTC",
+    "beehive_glitch",
+    "teleray_glitch",
+    "micro_char_size",
+    "ABSENT_BOOLEAN",
+    "CANCELLED_BOOLEAN",
+]
+
+export_symbol_prefixes = []
